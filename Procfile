@@ -1,1 +1,1 @@
-web: bundle exec app server -p $PORT
+web: gunicorn app:app
