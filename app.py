@@ -35,6 +35,10 @@ global model
 tf.keras.models.load_model('model.h5')
 print("MODEL LOADED!!!")
 
+@app.route('/')
+def home():
+    return render_template('html.html')
+
 @app.route("/predict", methods=["POST"])
 def doPrediction():
     print("GOT REQUEST")
