@@ -13,6 +13,7 @@ from keras.models import Sequential
 from keras.layers.core import Dense, Flatten, Dropout
 from flask import request
 from flask import jsonify
+from flask import render_template
 from flask import Flask
 import h5py
 import math
