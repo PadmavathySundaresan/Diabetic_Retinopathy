@@ -32,7 +32,7 @@ print("LOADING MODEL......")
 global graph
 graph = tf.get_default_graph()
 global model
-tf.keras.models.load_model(r'C:\Users\shivani\folder\model.h5')
+tf.keras.models.load_model('model.h5')
 print("MODEL LOADED!!!")
 
 @app.route("/predict", methods=["POST"])
