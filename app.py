@@ -38,7 +38,7 @@ print("MODEL LOADED!!!")
 
 @app.route('/')
 def home():
-    return render_template('static/html.html')
+    return render_template('html.html')
 
 @app.route("/predict", methods=["POST"])
 def doPrediction():
