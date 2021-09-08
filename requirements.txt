@@ -3,4 +3,4 @@ gunicorn==19.9.0
 keras==2.3.0
 pandas==1.0.3
 tensorflow==1.14.0
-pillow==4
+pillow==8.3.2
